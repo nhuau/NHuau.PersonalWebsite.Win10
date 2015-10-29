@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="47003NicolasHuau.NicolasHuau-ResumeBlogandApps" Version="1.1.0.0" Publisher="CN=3FA0AD2F-4CD1-43E3-91D9-A0E73FB90B51" />
+  <mp:PhoneIdentity PhoneProductId="82845fb8-ad8c-440f-9326-f9397e65ab53" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Nicolas Huau - Resume, Blog and Apps</DisplayName>
+    <PublisherDisplayName>Nicolas Huau</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="https://nicolashuau.azurewebsites.net/">
+      <uap:VisualElements DisplayName="Nicolas Huau - Resume, Blog and Apps" Description="Presents my resume, blog and apps." BackgroundColor="#2780E3" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" ShortName="Nicolas Huau - Resume, Blog and Apps" Square310x310Logo="images\ProfilePicture_310x310.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="images\splashscreen.png" BackgroundColor="#2780E3" />
+      </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://nicolashuau.azurewebsites.net/" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://nicolashuau.azurewebsites.net/*" Type="include" WindowsRuntimeAccess="all" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

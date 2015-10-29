@@ -1,0 +1,5 @@
+﻿{
+    "title"     : "Contenu non disponible hors ligne",
+    "message"   : "Une connexion internet est nécessaire pour consulter le contenu de cette application. Veuillez vérifier l'état de votre connexion avant de recharger la page via le bouton ci-dessous.",
+    "refresh"   : "Recharger la page"
+}

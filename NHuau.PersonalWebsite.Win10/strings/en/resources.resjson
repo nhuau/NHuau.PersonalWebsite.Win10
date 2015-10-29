@@ -1,0 +1,5 @@
+﻿{
+    "title"     : "Content unavailable offline",
+    "message"   : "An internet connection is required to see the content of this app. Please check your connection and try reload the page by using the button below.",
+    "refresh"   : "Reload the page"
+}

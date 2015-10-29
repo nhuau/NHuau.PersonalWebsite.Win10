@@ -1,0 +1,39 @@
+﻿
+.withimagebackground{
+    background:url(ms-appx:///images/msapp-error-background.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height:100%;
+    padding: 150px 15px;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: transparent\9;
+    background: rgba(0,0,0,0.4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+a{
+    display:block;    
+    width:auto;
+    border: 1px solid #fff;
+    color:#fff;
+    background:#2780E3;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:0 auto;
+    text-shadow:none;
+    text-align:center;
+    text-decoration:none;
+}
